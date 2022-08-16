@@ -1,0 +1,146 @@
+.about__section {
+    padding: 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #FFE5B4;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px;
+    margin-bottom: 60px;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
+  
+  .about__container-card {
+    background: #1c2237;
+    width: 500px;
+    height: 200px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-top: 48px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  .about__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .about__heading {
+    color: #1c2237;
+    margin-bottom: 24px;
+    font-size: 48px;
+    text-shadow:  0 2px 4px;
+  }
+
+  .about__description {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 24px;
+  }
+  
+  .about__container-cardInfo {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 24px;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .about__container-cardInfo h3 {
+    margin-bottom: 5px;
+    font-size: 24px;
+  }
+  
+  .about__container-cardInfo h4 {
+    font-size: 30px;
+    margin-bottom: 24px;
+    text-shadow: 0 0.5px 1px;
+  }
+  
+  .about__container-cardInfo p {
+    font-size: 14px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+    text-shadow: 0 0.25px 0.5px;
+  }
+  
+  .about__container-features {
+    margin: 16px 0 32px;
+    list-style: none;
+  }
+  
+  .about__container-features li {
+    margin-bottom: 10px;
+  }
+  
+  .about__container-features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon {
+    margin: 24px 0;
+  }
+
+.about__container-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__message-card {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__message-card {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+  
+  @media screen and (max-width: 960px) {
+    .about__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .about__container-card {
+      width: 90%;
+    }
+  
+    .about__wrapper {
+      margin: 0 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .about__message-card {
+      padding-top: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  

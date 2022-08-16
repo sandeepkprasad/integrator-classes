@@ -1,0 +1,125 @@
+.whyus__section {
+    padding: 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #fff;
+    border-radius: 8px;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 60px;
+    box-shadow: 0 5px 10px;
+    background-color: #FFE5B4;
+  }
+  
+  .whyus__container-card {
+    background: #1c2237;
+    width: 250px;
+    height: 300px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-left: 15px;
+    margin-right: 20px;
+    box-shadow: 0 5px 10px #000;
+  }
+  
+  .whyus__container-card:hover {
+    transform: scale(1.06);
+    transition: all 0.3s ease-out;
+    color: #1c2237;
+    background: #1c2237;
+  }
+  
+  .whyus__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .whyus__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+  }
+  
+  .whyus__heading {
+    color: #1c2237;
+    margin-bottom: 24px;
+    font-size: 48px;
+    text-shadow: 0 2px 4px;
+  }
+  
+  .whyus__container-cardInfo {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 24px;
+    align-items: center;
+    color: #fff;
+  }
+  
+  .whyus__container-cardInfo h3 {
+    margin-bottom: 5px;
+    font-size: 24px;
+  }
+  
+  .whyus__container-cardInfo h4 {
+    font-size: 50px;
+  }
+  
+  .whyus__container-cardInfo p {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  
+  .whyus__container-features {
+    margin: 16px 0 32px;
+    list-style: none;
+  }
+  
+  .whyus__container-features li {
+    margin-bottom: 10px;
+  }
+  
+  .whyus__container-features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icon {
+    margin: 24px 0;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .whyus__container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .whyus__container-card {
+      width: 90%;
+    }
+  
+    .whyus__wrapper {
+      margin: 0 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .whyus__container-card:nth-child(2) {
+      transform: scale(1);
+      background: #242424;
+      margin: 24px;
+    }
+  
+    .whyus__container-card:hover {
+      transform: none;
+    }
+  }
+  
